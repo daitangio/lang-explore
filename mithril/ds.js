@@ -99,5 +99,11 @@ todo.view = function() {
 
 
 //initialize the application
-m.mount(document, {controller: todo.controller, view: todo.view});
+m.mount(document.body, {controller: todo.controller, view: todo.view});
 debug("Dash board setup ends here");
+
+// Emacs config
+// Auto complete: remebmeber to issue (ac-config-default)
+// Local variables:
+// mode: js2
+// End:
